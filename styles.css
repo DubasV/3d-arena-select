@@ -10,3 +10,7 @@ body.social{--bg:#f4f2ed;--surface:#eae8e2;--text:#131a28;--muted:#58616e;--line
 @media(max-width:760px){html:not(.enhanced) .header{height:auto;min-height:76px;flex-wrap:wrap;padding-block:15px}html:not(.enhanced) .menu-button{display:none}html:not(.enhanced) .nav-links{position:static;display:flex;flex-wrap:wrap;gap:8px 22px;box-shadow:none;background:none;border:0;padding:0;min-width:0}html:not(.enhanced) .header nav{width:100%}html:not(.enhanced) .nav-links a{padding:8px 0;font-size:12px}}
 
 .social-section>*{min-width:0}@media(max-width:760px){.social-copy h2{font-size:clamp(46px,13vw,57px)}}
+
+.booking-note{font-size:10px!important;line-height:1.6;margin-top:15px!important;max-width:330px}.booking-note a{text-decoration:underline;text-underline-offset:3px}.title-row .booking-note{margin-bottom:0}.hero-copy .hero-location{margin-top:13px}
+
+@media(max-width:760px){.title-row>div{flex-wrap:wrap}.title-row .booking-note{flex-basis:100%;max-width:none;margin-top:0!important}}
